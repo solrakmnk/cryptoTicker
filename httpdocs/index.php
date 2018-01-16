@@ -9,13 +9,15 @@
 
     <div class="container">
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-12">
           <canvas id="canvas"></canvas>
           <div>
             Last value: <span id="last_btc"></span>
           </div>
         </div>
-        <div class="col-md-6">
+      </div>
+      <div class="row">
+        <div class="col-md-12">
           <canvas id="canvas2"></canvas>
           <div>
             Last value: <span id="last_xrp"></span>
