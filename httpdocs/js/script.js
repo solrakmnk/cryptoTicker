@@ -1,9 +1,9 @@
-var cryptos = ["xrp_mxn", "btc_mxn"]
+var cryptos = ["xrp_mxn", "btc_mxn","eth_mxn"]
 window.setInterval(function(){
   cryptos.forEach(function(element) {
     $.ajax({
       method: "GET",
-      url: "/communication/getData.php",
+      url: "communication/getData.php",
       data: { book: element }
     })
     .done(function( msg ) {

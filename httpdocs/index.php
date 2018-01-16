@@ -31,9 +31,9 @@
     <script
   			  src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.bundle.min.js"
     ></script>
-    <script src="/js/moment.min.js"></script>
-    <script src="/vendor/nnnick/chartjs/dist/Chart.bundle.js"></script>
-    <script src="/js/script.js"></script>
-    <script src="/js/chart-script.js"></script>
+    <script src="js/moment.min.js"></script>
+    <script src="vendor/nnnick/chartjs/dist/Chart.bundle.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/chart-script.js"></script>
   </body>
 </html>
