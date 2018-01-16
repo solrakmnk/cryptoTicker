@@ -33,8 +33,14 @@ var generalOptions = {
             display: true,
             scaleLabel: {
                 display: true,
-                labelString: 'Value on MXN'
-            }
+                labelString: 'Value on MXN',
+            },
+            ticks: {
+                    // Include a dollar sign in the ticks
+                    callback: function(value, index, values) {
+                        return '$' + value.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+                    }
+                }
         }]
     }
 };

@@ -8,8 +8,8 @@ window.setInterval(function(){
     })
     .done(function( msg ) {
       if(element == "btc_mxn"){
-        addData(myLine, moment().format('LTS'),msg);
         var formated = numeral(msg).format('0,0.00');
+        addData(myLine, moment().format('LTS'),msg);        
         $("#last_btc").html("$"+formated);
       } else{
         addData(myLine2, moment().format('LTS'),msg);
